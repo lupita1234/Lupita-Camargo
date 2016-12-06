@@ -1,0 +1,95 @@
+Body {
+    font-family:sans-serif;
+    font-size:12px;
+    background-color:teal;
+    text-align:center;
+}
+#header{
+    height:160px;
+    text-align:left;
+}
+
+#Logotipo{
+    width:30%
+}
+
+#Logotipo, #Buscador{
+    margin: 10px;
+}
+
+#Logo,#Logotipo,#Titulo,#Buscador,#Btn-Buscar{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#Logo Img{
+    width: 100px;
+}
+#Titulo{
+    color: #cccccc ;
+        font-family:tahoma;
+        font-size:28px;
+        margin-left:10px;
+}
+#Menu {
+    height: auto;
+    background-color:aquamarine;
+    padding:5PX;
+    margin-bottom:5PX
+        
+}
+#Barra_Lateral,#Contenido {
+    display: inline-block;
+    vertical-align: middle;
+}
+#Barra_Lateral{
+    background-color: deeppink;
+    width:20%;
+    min-height:300px;
+} 
+#Contenido{
+    background-color:aqua;
+    width:78%;
+    min-height:300px;
+}
+
+#Pie{
+    background-color: beige;
+    border-top:1px solid #cccccc;
+    min-height: 100px;
+    margin-top: 10px;
+        
+}
+#Buscar{
+    box-shadow: 1px 1px 2px #cccccc;
+    border: 1px solid #f7f7f7;
+    border-radius:5px;
+    height:30px;
+    width: 80%;
+    padding: 5px 10px;
+    padding-right: 20px;
+    
+    
+}
+#Btn-buscar{
+    padding: 5px 15px;
+    display:inline-block;
+}
+#Buscador{
+    width: 40%;
+}
+#Imagen{
+    background: url(imagenes/laptop.png);
+    background-size:cover
+    width: 200px;
+    height: 200px;
+    margin:0 auto;
+}
+#Imagen:hover{
+    width: 250px;
+    height: 250px;
+}
+.letra-azul{
+    color:steelblue;
+}
+
